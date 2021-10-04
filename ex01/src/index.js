@@ -29,15 +29,7 @@ function funcShift() {
 		Fshift = '0';
 	}
 }
-//Enter
-function funcEnter() {
-	var valu = document.getElementById('display').innerHTML;
-	if (valu == '') {
-		alert('Not inserted : Empty innerHTML');
-	}else{
-		alert('Data Inserted : '+valu);
-	}
-}
+
 
 //Space
 function funcSpace() {

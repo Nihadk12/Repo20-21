@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QWERTY keyboard</title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+<div class="container">
+	<div class="Keyboard">
+		<h2>QWERTY keyboard</h2>
+			<textarea id="display" class="display" placeholder="TEXT AREA"></textarea>
+		<div class="buttons">
+			<div class="row_1">
+				<table>
+				<tr>
+				<td><button onclick="func1()" class="key">1</button></td>
+				<td><button onclick="func2()" class="key">2</button></td>
+				<td><button onclick="func3()" class="key">3</button></td>
+				<td><button onclick="func4()" class="key">4</button></td>
+				<td><button onclick="func5()" class="key">5</button></td>
+				<td><button onclick="func6()" class="key">6</button></td>
+				<td><button onclick="func7()" class="key">7</button></td>
+				<td><button onclick="func8()" class="key">8</button></td>
+				<td><button onclick="func9()" class="key">9</button></td>
+				<td><button onclick="func0()" class="key">0</button></td>
+				<td rowspan="2"><button onclick="funcDel()" class="BackSpace">Back Space</button></td>
+				<td rowspan="5"><button class="submit" onclick="submit()">Submit</button></td>
+			</tr>
+			</div>
+
+			<div class="row_2">
+				<tr>
+					<td><button onclick="funcq()" class="key">q</button></td>
+					<td><button onclick="funcw()" class="key">w</button></td>
+					<td><button onclick="funce()" class="key">e</button></td>
+					<td><button onclick="funcr()" class="key">r</button></td>
+					<td><button onclick="funct()" class="key">t</button></td>
+					<td><button onclick="funcy()" class="key">y</button></td>
+					<td><button onclick="funcu()" class="key">u</button></td>
+					<td><button onclick="funci()" class="key">i</button></td>
+					<td><button onclick="funco()" class="key">o</button></td>
+					<td><button onclick="funcp()" class="key">p</button></td>
+				</tr>
+			</div>
+
+			<div class="row_3">
+				<tr>
+					<td><button onclick="funca()" class="key">a</button></td>
+					<td><button onclick="funcs()" class="key">s</button></td>
+					<td><button onclick="funcd()" class="key">d</button></td>
+					<td><button onclick="funcf()" class="key">f</button></td>
+					<td><button onclick="funcg()" class="key">g</button></td>
+					<td><button onclick="funch()" class="key">h</button></td>
+					<td><button onclick="funcj()" class="key">j</button></td>
+					<td><button onclick="funck()" class="key">k</button></td>
+					<td><button onclick="funcl()" class="key">l</button></td>
+					<td colspan="2"><button onclick="funcCL()" class="CapsLock">Caps Lock</button></td>
+					
+				</tr>		
+			</div>
+
+			<div class="row_4">
+				<tr>
+					<td><button onclick="funcz()" class="key">z</button></td>
+					<td><button onclick="funcx()" class="key">x</button></td>
+					<td><button onclick="funcc()" class="key">c</button></td>
+					<td><button onclick="funcv()" class="key">v</button></td>
+					<td><button onclick="funcb()" class="key">b</button></td>
+					<td><button onclick="funcn()" class="key">n</button></td>
+					<td><button onclick="funcm()" class="key">m</button></td>
+					<td><button onclick="funcSc2()" class="key">_</button></td>
+					<td><button onclick="funcSc2s()" class="key">-</button></td>
+					<td colspan="2"><button onclick="funcShift()" class="Shift">Shift</button></td>
+				</tr>	
+			</div>
+
+			<div class="row_5">
+				<tr>
+					<td colspan="10" class="Space"><button onclick="funcSpace()" class="Space">Space</button></td>
+					<td><button onclick="funcEnter()" class="enter">OK</button></td>
+				
+			</table>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- JavaScript Area -->
+<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
